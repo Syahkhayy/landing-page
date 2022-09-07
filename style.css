@@ -76,9 +76,15 @@ header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: -70px 40px 20px 40px;
-	box-shadow: 5px 5px 30px;
+	margin: -50px 40px 20px 40px;
+	border-radius: 5px;
+	transition: all 1s;
+}
+
+.about:hover{
+	margin-top: -60px;
 	border-radius: 10px;
+	box-shadow: 5px 5px 30px;
 }
 
 .about-title{
@@ -115,6 +121,8 @@ header {
 .container {
 	display: flex;
 	gap: 50px;
+	margin: 30px 0px;
+	padding: 50px 0px;
 }
 
 .card{
@@ -122,7 +130,17 @@ header {
 	height: 200px;
 	border: 2px solid #117F7F;
 	border-radius: 20px;
-	box-shadow: 10px 10px 30px;
+}
+
+.card-view{
+	transition: all 1s;
+}
+
+.card-view:hover{
+	transform: scale(1.05);
+	box-shadow: 10px 10px 20px;
+	padding: 5px;
+	border-radius: 10px;
 }
 
 .project p{
