@@ -7,6 +7,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	overflow: auto;
+	margin: 0px;
 }
 
 content{
@@ -34,23 +35,22 @@ header {
 }
 
 .hero {
-	background-color: #1F2937;
+	background-color: #055A5A;
 	display: flex;
 	justify-content: center;
-	padding: 100px, 150px;
-	gap: 35px;
+	padding: 180px 20px;
+	gap: 50px;
 
 }
 
 .left-hero{
 	width: 150px;
 	color: wheat;
-	column-gap: 12px;
 }
 
 .left-hero img{
-	width: 150px;
-	height: 160px;
+	width: 200px;
+	height: 200px;
 }
 
 .right-hero{
@@ -60,19 +60,59 @@ header {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 }
 
 .right-hero p{
 	font-size: 18px;
 	color: #E5E7EB;
-	margin-top: 2px;
 }
 
-.carousel-item{
-/*	width: 100px;
-	height: 100px;*/
+.about{
+	background-color: grey;
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin: 100px 30px;
+}
+
+.about-title{
+	margin: 70px;
+	font-size: 36px;
+	font-weight: 800;
+	color: #7EA4A4;
+}
+
+.project{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 100px 0px;
+
+}
+
+.project-title{
+	margin: 70px;
+	font-size: 36px;
+	font-weight: 800;
+	color: #002525;
+}
+
+.container {
+	display: flex;
+	gap: 50px;
+}
+
+.card{
+	width: 200px;
+	height: 200px;
+	border: 2px solid #117F7F;
+	border-radius: 20px;
+	box-shadow: 10px 10px 30px;
+}
+
+.project p{
+	max-width: 210px;
 }
 
 footer {
@@ -82,7 +122,7 @@ footer {
 }
 
 header, footer{
-	background-color: #1F2937;
+	background-color: #002525;
 	display: flex;
 }
 
