@@ -34,7 +34,7 @@ header {
 }
 
 .hero {
-	background-color: #055A5A;
+	background-image: linear-gradient(to bottom right,#102964, #055A5A,#966708);
 	display: flex;
 	justify-content: center;
 	padding: 180px 20px;
@@ -205,7 +205,7 @@ footer a{
 }
 
 header, footer{
-	background-color: #002525;
+	background-image: linear-gradient(to right,#002525,#000205);
 	display: flex;
 }
 
