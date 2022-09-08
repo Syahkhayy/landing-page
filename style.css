@@ -10,10 +10,6 @@ body{
 	margin: 0px;
 }
 
-content{
-	height: 200vh;
-}
-
 ul {
 	list-style-type: none;
 	display: flex;
@@ -23,8 +19,11 @@ ul {
 }
 
 a{
-	color: whitesmoke;
 	text-decoration: none;
+}
+
+header a{
+	color: whitesmoke;
 }
 
 header {
@@ -79,12 +78,12 @@ header {
 	margin: -50px 40px 20px 40px;
 	border-radius: 5px;
 	transition: all 1s;
+	box-shadow: 5px 5px 30px;
 }
 
 .about:hover{
 	margin-top: -60px;
 	border-radius: 10px;
-	box-shadow: 5px 5px 30px;
 }
 
 .about-title{
@@ -145,12 +144,64 @@ header {
 
 .project p{
 	max-width: 210px;
+	text-align: justify;
 }
+
+.contact{
+	margin: 40px 40px;
+	background-color: grey;
+	padding: 40px;
+	border-radius: 20px;
+}
+
+.ct-title{
+	text-align: center;
+	margin: 40px;
+	font-size: 40px;
+	font-weight: 800;
+}
+
+.ct-content{
+	display: flex;
+	justify-content: space-around;
+	margin: 20px;
+	padding: 40px;
+	background-color: whitesmoke;
+	border-radius: 20px;
+	transition: all 1s;
+}
+
+.ct-content:hover{
+	transform: scale(1.02);
+	box-shadow: 10px 10px 20px;
+}
+
+.ct-content img{
+	width: 50px;
+	height: 50px;
+	transition: all 1s;
+}
+
+.ct-content img: hover{
+	transform: scale(1.01);
+	box-shadow: 1px 1px 10px;
+}
+
+
 
 footer {
 	color: #E5E7EB;
-	justify-content: center;
-	align-items: flex-end;
+	flex-direction: column;
+	align-items: center;
+}
+
+.cc{
+	font-size: 12px;
+	color: floralwhite;
+}
+
+footer a{
+	color: floralwhite;
 }
 
 header, footer{
